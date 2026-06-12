@@ -4,6 +4,10 @@ Content for the CCA Coding Club **Learn** pages. This is the single source of
 truth for every learning path on the website — to add or edit a path, push to
 this repo. No website code changes are needed.
 
+> **New here?** Read [AUTHORING.md](AUTHORING.md) for a step-by-step
+> walkthrough of adding a path, nodes, and challenges (plus how to customize the
+> look). The notes below are the quick reference.
+
 The website reads this repo over **GitHub Pages**
 (`https://cca-coding-club.github.io/Learn/`), so this repo must keep Pages
 enabled, and the **`.nojekyll`** file at the root must stay (without it GitHub
