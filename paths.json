@@ -4,5 +4,12 @@
     "title": "Git Basics",
     "description": "Learn version control: repositories, commits, and your first contribution.",
     "nodeCount": 3
+  },
+  {
+    "id": "discord-python",
+    "title": "Discord Bots with Python",
+    "icon": "🤖",
+    "description": "Learn to build Discord bots from scratch using Python and discord.py, from initial setup through organising your code with Cogs.",
+    "nodeCount": 7
   }
 ]

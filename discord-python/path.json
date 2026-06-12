@@ -1,0 +1,21 @@
+{
+  "id": "discord-python",
+  "title": "Discord Bots with Python",
+  "nodes": [
+    { "id": "login",                    "title": "Login & Setup",            "type": "lesson",    "x": 380, "y": 80  },
+    { "id": "creating-the-bot",         "title": "Creating the Bot",         "type": "lesson",    "x": 380, "y": 240 },
+    { "id": "commands",                 "title": "Commands",                 "type": "lesson",    "x": 380, "y": 400 },
+    { "id": "slash-commands",           "title": "Slash / Tree Commands",    "type": "lesson",    "x": 130, "y": 400 },
+    { "id": "custom-command-challenge", "title": "Challenge: Custom Command","type": "challenge", "x": 380, "y": 560 },
+    { "id": "embeds",                   "title": "Embeds",                   "type": "lesson",    "x": 220, "y": 730 },
+    { "id": "cogs",                     "title": "Cogs",                     "type": "lesson",    "x": 540, "y": 730 }
+  ],
+  "edges": [
+    { "from": "login",                    "to": "creating-the-bot"         },
+    { "from": "creating-the-bot",         "to": "commands"                 },
+    { "from": "commands",                 "to": "slash-commands"           },
+    { "from": "commands",                 "to": "custom-command-challenge" },
+    { "from": "custom-command-challenge", "to": "embeds"                   },
+    { "from": "custom-command-challenge", "to": "cogs"                     }
+  ]
+}
