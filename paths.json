@@ -6,6 +6,13 @@
     "nodeCount": 4
   },
   {
+    "id": "python",
+    "title": "Python",
+    "icon": "🐍",
+    "description": "Learn Python from the ground up: data types, control flow, collections, functions, comprehensions, files, and classes — built from the Coding Club worksheets.",
+    "nodeCount": 31
+  },
+  {
     "id": "discord-python",
     "title": "Discord Bots with Python",
     "icon": "🤖",
