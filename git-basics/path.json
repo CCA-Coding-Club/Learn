@@ -3,11 +3,13 @@
   "title": "Git Basics",
   "nodes": [
     { "id": "intro",        "type": "lesson",    "title": "What is Git?",     "x": 380, "y": 130 },
-    { "id": "commits",      "type": "lesson",    "title": "Making Commits",   "x": 380, "y": 400 },
-    { "id": "first-commit", "type": "challenge", "title": "Your First Commit", "x": 380, "y": 660 }
+    { "id": "commits",      "type": "lesson",    "title": "Making Commits",   "x": 380, "y": 330 },
+    { "id": "first-commit", "type": "challenge", "title": "Your First Commit", "x": 380, "y": 530 },
+    { "id": "Github",       "type": "lesson",    "title": "Introduction to GitHub", "x": 380, "y": 730 }
   ],
   "edges": [
     { "from": "intro",   "to": "commits" },
-    { "from": "commits", "to": "first-commit" }
+    { "from": "commits", "to": "first-commit" },
+    { "from": "first-commit", "to": "Github" }
   ]
 }
